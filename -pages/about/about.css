@@ -1,39 +1,26 @@
 .aboutNav {
-    border: var(--form-border);
-    color: var(--form-text-color);
-}
-
-body {
-    margin: 0;
-    background-color: var(--main-bg-color);
-    color: var(--main-txt-color);
-}
-
-span {
-    font-size: 30px;
+    background-color: var(--about-bg-color);
+    border: var(--about-border);
+    color: var(--about-text-color);
 }
 
 .contain {
+    margin: 0;
+    background-color: var(--about-bg-color);
+    color: var(--about-text-color);
+}
+
+.large {
+    font-size: 30px;
+    padding: 0px !important;
+}
+
+.some-margin {
     font-size: 18px;
+    margin: 50px 300px;
 }
 
 .about-link {
     font-size: 30px;
     padding: 0px !important;
-}
-
-.about { 
-    border: var(--main-border);
-}
-
-.centered {
-    text-align: center;
-}
-
-.some-margin {
-    margin: 50px 300px;
-}
-
-.large-font-size {
-    font-size: 50px;
 }

@@ -23,6 +23,9 @@
     --form-bg-color: #D6293E;
     --form-text-color: white;
     --form-border: 10px solid var(--form-text-color);
+    --about-bg-color: #1D52E2;
+    --about-text-color: #E2AD1D;
+    --about-border: 10px solid var(--about-text-color);
 }
 
 body {

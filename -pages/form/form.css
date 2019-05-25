@@ -1,14 +1,7 @@
 .formNav {
+    background-color: var(--form-bg-color);
     border: var(--form-border);
     color: var(--form-text-color);
-}
-
-html { 
-    background: url(https://media.giphy.com/media/S8lB8ff7GtCuc/giphy.gif) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 *, *:before, *:after {
@@ -74,6 +67,10 @@ fieldset {
     border: none;
 }
 
+.formContainer {
+    background-color: var(--form-bg-color);
+    color: var(--form-text-color);
+}
 /* @media screen and (min-width: 480px) {
     form {
        max-width: 480px;
