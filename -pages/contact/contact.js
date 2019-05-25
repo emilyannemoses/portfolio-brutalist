@@ -2,7 +2,7 @@ spa.page.contact = (META)=>{
     spa.buildPage(META).innerHTML += `
     <nav class='contactNav centered'>
       <span onClick='spa.setPage("home")'><u>home</u></span>
-      <span onClick='spa.setPage("contact")'><u>contact</u></span>
+      <span><u>contact</u></span>
       <span onClick='spa.setPage("about")'><u>about</u></span>
       <span onClick="openResume('../resume/emilyannemoses-2019.pdf')"><u>resume</u></span>
     </nav>
