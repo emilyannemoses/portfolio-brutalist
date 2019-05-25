@@ -1,0 +1,25 @@
+.nav {
+    background-color: var(--home-bg-color);
+    border: var(--home-border);
+    color: var(--home-text-color);
+}
+
+.home {
+    background-color: var(--home-bg-color);
+    color: var(--home-text-color);
+    height: 100vh;
+}
+
+.portfolio {
+    background-color: var(--home-bg-color);
+    border: var(--home-border);
+    color: var(--home-text-color);
+    cursor: pointer;
+    font-size: var(--large-font);
+}
+
+img {
+    height: auto;
+    width: 510px;
+    margin-bottom: 50px;
+}

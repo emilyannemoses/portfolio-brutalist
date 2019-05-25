@@ -1,0 +1,22 @@
+.nav {
+    background-color: var(--home-bg-color);
+    border: var(--home-border);
+    color: var(--home-text-color);
+}
+
+.contact {
+    background-color: var(--home-bg-color);
+    color: var(--contact-text-color);
+    font-size: var(--large-font);
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.float-right {
+    float: right;
+    padding: 0px !important;
+}
+
+a {
+    text-decoration: none;
+}

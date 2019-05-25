@@ -1,0 +1,42 @@
+:root {
+    --universal-margin: 0px !important;
+    --universal-height: 100vh;
+    --universal-width: 100vw;
+    --universal-center-text: center;
+    --large-font: 85px;
+    --medium-font: 50px;
+    --small-font: 30px;
+    --tiny-font: 18px;
+    --font-avenir: Avenir;
+    --enter-bg-color: #5BA46B;
+    --enter-text-color: #A45B94;
+    --enter-border: 10px solid var(--enter-text-color);
+    --home-bg-color: #5BA46B;
+    --home-text-color: #A45B94;
+    --home-border: 10px solid var(--home-text-color);
+    --portfolio-bg-color: #5BA46B;
+    --portfolio-text-color: #A45B94;
+    --portfolio-border: 10px solid var(--portfolio-text-color);
+    --contact-bg-color: #5BA46B;
+    --contact-text-color: #A45B94;
+    --contact-border: 10px solid var(--contact-text-color);
+    --form-bg-color: #D6293E;
+    --form-text-color: white;
+    --form-border: 10px solid var(--form-text-color);
+}
+
+body {
+    font-family: var(--font-avenir);
+    margin: var(--universal-margin);
+}
+
+.centered {
+    font-size: var(--medium-font);
+    padding: 50px;
+    text-align: var(--universal-center-text);
+}
+
+span {
+    cursor: pointer;
+    padding: 50px;
+}

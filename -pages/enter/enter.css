@@ -1,0 +1,17 @@
+.enter {
+    background-color: var(--enter-bg-color);
+    display: table;
+    height: var(--universal-height);
+    width: var(--universal-width);
+}
+
+.button {
+    border: var(--enter-border);
+    color: var(--enter-text-color);
+    cursor: pointer;
+    display: table-cell;
+    font-size: var(--large-font);
+    margin: auto;
+    text-align: var(--universal-center-text);
+    vertical-align: middle;
+}

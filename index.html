@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/spa.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./-pages/enter/enter.css">
+    <link rel="stylesheet" href="./-pages/home/home.css">
+    <link rel="stylesheet" href="./-pages/contact/contact.css">
+    <link rel="stylesheet" href="./-pages/about/about.css">
+    <link rel="stylesheet" href="./-pages/portfolio/portfolio.css">
+    <link rel="stylesheet" href="./-pages/form/form.css">
+    <title>emily anne moses &#183; software engineer</title>
+</head>
+<body></body>
+<script>
+    const spa =  new Single_Page_Application
+    window.onload = ()=>{
+        spa.localizeCss()
+        spa.start({
+            landingPage: 'enter'
+        })
+    }
+    window.onhashchange = (event)=>{ spa.hashChange(event) }
+</script>
+<script src="./-pages/enter/enter.js"></script>
+<script src="./-pages/home/home.js"></script>
+<script src="./-pages/contact/contact.js"></script>
+<script src="./-pages/about/about.js"></script>
+<script src="./-pages/portfolio/portfolio.js"></script>
+<script src="./-pages/form/form.js"></script>
+</html>

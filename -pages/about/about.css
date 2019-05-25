@@ -1,0 +1,39 @@
+.aboutNav {
+    border: var(--form-border);
+    color: var(--form-text-color);
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+
+span {
+    font-size: 30px;
+}
+
+.contain {
+    font-size: 18px;
+}
+
+.about-link {
+    font-size: 30px;
+    padding: 0px !important;
+}
+
+.about { 
+    border: var(--main-border);
+}
+
+.centered {
+    text-align: center;
+}
+
+.some-margin {
+    margin: 50px 300px;
+}
+
+.large-font-size {
+    font-size: 50px;
+}
