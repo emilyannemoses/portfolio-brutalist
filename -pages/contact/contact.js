@@ -4,7 +4,7 @@ spa.page.contact = (META)=>{
       <span onClick='spa.setPage("home")'><u>home</u></span>
       <span onClick='spa.setPage("contact")'><u>contact</u></span>
       <span onClick='spa.setPage("about")'><u>about</u></span>
-      <span onClick="openResume('./resume/emilyannemoses-2019.pdf')"><u>resume</u></span>
+      <span onClick="openResume('../resume/emilyannemoses-2019.pdf')"><u>resume</u></span>
     </nav>
     <div class='contact'>
     MESSAGE ME <span class="float-right" onClick='spa.setPage("form")'><u>send message</u></span>
