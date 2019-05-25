@@ -11,7 +11,7 @@ spa.page.contact = (META)=>{
     <br><br>
     SNAIL MAIL<span class="float-right">🐌✉️</span>
     <br><br>
-    CARRIER PIGEON<span class="float-right"><a href="https://flypigeon.co/" target="_blank">🐦</a></span>
+    HOMING PIGEON<span class="float-right"><a href="https://flypigeon.co/" target="_blank">🐦</a></span>
     <br><br>
     TEXT ME<span class="float-right">📱</span>
     </div>
