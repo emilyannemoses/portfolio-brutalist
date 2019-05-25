@@ -2,16 +2,17 @@
     background-color: var(--contact-bg-color);
     border: var(--contact-border);
     color: var(--contact-text-color);
-    font-family: 'Raleway';
+    font-family: var(--font-press-start);
+    font-size: var(--small-font);
 }
 
 .contact {
     background-color: var(--contact-bg-color);
     color: var(--contact-text-color);
-    font-size: var(--large-font);
+    font-size: var(--medium-font);
     height: 100vh;
     padding-top: 150px;
-    font-family: 'Raleway';
+    font-family: var(--font-press-start);
 }
 
 .float-right {

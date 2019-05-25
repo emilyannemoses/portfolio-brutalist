@@ -2,7 +2,7 @@
     background-color: var(--form-bg-color);
     border: var(--form-border);
     color: var(--form-text-color);
-    font-family: 'Abril Fatface';
+    font-family: var(--font-abril-fatface);
 }
 
 *, *:before, *:after {
@@ -18,7 +18,7 @@ form {
     padding: 10px 20px;
     background: transparent;
     color: var(--form-text-color);
-    font-family: 'Abril Fatface';
+    font-family: var(--font-abril-fatface);
     font-size: 30px;
     max-width: 480px;
     z-index: 999;
@@ -43,7 +43,7 @@ select {
     color: #FFF;
     background-color: #29D6C1;
     font-size: 30px;
-    font-family: 'Abril Fatface';
+    font-family: var(--font-abril-fatface);
     text-align: center;
     font-style: normal;
     width: 100%;
@@ -60,7 +60,7 @@ select {
     font-size: 30px;
     text-align: center;
     font-style: normal;
-    font-family: 'Abril Fatface';
+    font-family: var(--font-abril-fatface);
     width: 100%;
     border: 1px solid black;
     border-width: 1px 1px 3px;

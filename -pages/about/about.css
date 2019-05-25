@@ -2,12 +2,14 @@
     background-color: var(--about-bg-color);
     border: var(--about-border);
     color: var(--about-text-color);
+    font-family: var(--font-kalam);
 }
 
 .contain {
     margin: 0;
     background-color: var(--about-bg-color);
     color: var(--about-text-color);
+    font-family: var(--font-kalam);
 }
 
 .large {
@@ -16,8 +18,9 @@
 }
 
 .some-margin {
-    font-size: 18px;
-    margin: 20px 300px;
+    font-size: 20px;
+    margin: 0px 200px;
+    padding: 20px;
 }
 
 .about-link {

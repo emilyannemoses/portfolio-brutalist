@@ -8,6 +8,11 @@
     --small-font: 30px;
     --tiny-font: 18px;
     --font-avenir: Avenir;
+    --font-dosis: 'Dosis';
+    --font-roboto: 'Roboto Mono';
+    --font-kalam: 'Kalam';
+    --font-abril-fatface: 'Abril Fatface';
+    --font-press-start: 'Press Start 2P';
     --enter-bg-color: #5BA46B;
     --enter-text-color: #A45B94;
     --enter-border: 10px solid var(--enter-text-color);

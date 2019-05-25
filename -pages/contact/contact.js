@@ -8,12 +8,12 @@ spa.page.contact = (META)=>{
     </nav>
     <div class='contact'>
     MESSAGE ME <span class="float-right" onClick='spa.setPage("form")'><u>send message</u></span>
-    <br>
+    <br><br>
     SNAIL MAIL<span class="float-right">🐌✉️</span>
-    <br>
+    <br><br>
     CARRIER PIGEON<span class="float-right"><a class="padding-right" href="https://flypigeon.co/" target="_blank">🐦</a></span>
-    <br>
+    <br><br>
     TEXT ME<span class="float-right">📱</span>
-  </div>
+    </div>
     ` 
 }
