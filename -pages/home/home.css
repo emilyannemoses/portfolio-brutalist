@@ -3,6 +3,7 @@
     border: var(--home-border);
     color: var(--home-text-color);
     font-family: var(--font-dosis);
+    cursor: pointer;
 }
 
 .home {

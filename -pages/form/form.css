@@ -3,6 +3,7 @@
     border: var(--form-border);
     color: var(--form-text-color);
     font-family: var(--font-abril-fatface);
+    cursor: pointer;
 }
 
 *, *:before, *:after {
@@ -41,6 +42,7 @@ select {
 .submit {
     padding: 19px 39px 18px 39px;
     color: #FFF;
+    cursor: pointer;
     background-color: #29D6C1;
     font-size: 30px;
     font-family: var(--font-abril-fatface);
@@ -56,6 +58,7 @@ select {
 .reset {
     padding: 19px 39px 18px 39px;
     color: #FFF;
+    cursor: pointer;
     background-color: #D6293E;
     font-size: 30px;
     text-align: center;

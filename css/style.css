@@ -36,6 +36,8 @@
 body {
     font-family: var(--font-avenir);
     margin: var(--universal-margin);
+    min-width: 600px !important;
+    height: 100vh;
 }
 
 .centered {
@@ -44,7 +46,7 @@ body {
     text-align: var(--universal-center-text);
 }
 
-span {
+/* span {
     cursor: pointer;
     padding: 50px;
-}
+} */

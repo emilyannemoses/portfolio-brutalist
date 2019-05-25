@@ -3,6 +3,7 @@
     border: var(--about-border);
     color: var(--about-text-color);
     font-family: var(--font-kalam);
+    cursor: pointer;
 }
 
 .contain {

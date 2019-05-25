@@ -3,6 +3,7 @@
     border: var(--portfolio-border);
     color: var(--portfolio-text-color);
     font-family: var(--font-roboto);
+    cursor: pointer;
 }
 
 .linkContainer {
