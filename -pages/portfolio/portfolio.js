@@ -15,7 +15,7 @@ spa.page.portfolio = (META)=>{
         widget dashboard</a>
     </div>
     <div class="image">
-        <a href="http://emilyannemoses.com/projects/drag-n-drop/index.html" target="_blank">
+        <a href="https://eamoses.github.io/index/projects/drag-n-drop/index.html" target="_blank">
         drag 'n drop photo website</a>
     </div>
     <div class="image">
