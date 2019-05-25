@@ -2,6 +2,7 @@
     background-color: var(--contact-bg-color);
     border: var(--contact-border);
     color: var(--contact-text-color);
+    font-family: 'Raleway';
 }
 
 .contact {
@@ -10,6 +11,7 @@
     font-size: var(--large-font);
     height: 100vh;
     padding-top: 150px;
+    font-family: 'Raleway';
 }
 
 .float-right {

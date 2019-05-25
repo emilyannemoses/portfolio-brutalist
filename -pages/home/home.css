@@ -1,12 +1,14 @@
-.nav {
+.homeNav {
     background-color: var(--home-bg-color);
     border: var(--home-border);
     color: var(--home-text-color);
+    font-family: 'Dosis';
 }
 
 .home {
     background-color: var(--home-bg-color);
     color: var(--home-text-color);
+    font-family: 'Dosis';
     height: 100vh;
 }
 

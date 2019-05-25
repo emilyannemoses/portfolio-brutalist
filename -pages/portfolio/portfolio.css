@@ -1,7 +1,8 @@
-.nav {
+.portfolioNav {
     background-color: var(--portfolio-bg-color);
     border: var(--portfolio-border);
     color: var(--portfolio-text-color);
+    font-family: 'Roboto Mono';
 }
 
 .linkContainer {
@@ -9,6 +10,7 @@
     border: var(--portfolio-border);
     color: var(--portfolio-text-color);
     height: auto;
+    font-family: 'Roboto Mono';
     padding: 20px;
     width: auto;
 }
@@ -26,4 +28,6 @@
     border: var(--portfolio-border);
     color: var(--portfolio-text-color);
     font-size: var(--medium-font);
+    font-family: 'Roboto Mono';
+
 }
