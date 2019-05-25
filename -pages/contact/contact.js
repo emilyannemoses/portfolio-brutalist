@@ -1,6 +1,6 @@
 spa.page.contact = (META)=>{
     spa.buildPage(META).innerHTML += `
-    <nav class='nav centered'>
+    <nav class='contactNav centered'>
       <span onClick='spa.setPage("home")'><u>home</u></span>
       <span onClick='spa.setPage("contact")'><u>contact</u></span>
       <span onClick='spa.setPage("about")'><u>about</u></span>

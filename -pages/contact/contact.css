@@ -1,11 +1,11 @@
-.nav {
-    background-color: var(--home-bg-color);
-    border: var(--home-border);
-    color: var(--home-text-color);
+.contactNav {
+    background-color: var(--contact-bg-color);
+    border: var(--contact-border);
+    color: var(--contact-text-color);
 }
 
 .contact {
-    background-color: var(--home-bg-color);
+    background-color: var(--contact-bg-color);
     color: var(--contact-text-color);
     font-size: var(--large-font);
     height: 100vh;
