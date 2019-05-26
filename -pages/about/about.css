@@ -11,7 +11,7 @@
     background-color: var(--about-bg-color);
     color: var(--about-text-color);
     font-family: var(--font-kalam);
-    height: 100vh;
+    height: 100%;
 }
 
 .large {
