@@ -2,7 +2,8 @@
     background-color: var(--enter-bg-color);
     display: table;
     height: var(--universal-height);
-    width: var(--universal-width);
+    width: 50%;
+    float: right;
 }
 
 .button {
