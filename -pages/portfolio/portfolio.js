@@ -6,6 +6,7 @@ spa.page.portfolio = (META)=>{
       <span onClick='spa.setPage("about")'><u>about</u></span>
       <span onClick="openResume('../resume/emilyannemoses-2019.pdf')"><u>resume</u></span>
     </nav>
+    <div class="wholepage">
     <div class="linkContainer centered"> 
     <div>
         EMILY'S <a href="https://github.com/eamoses" class="centered large-font-size no-padding" target="_blank">GITHUB</a>
@@ -44,6 +45,7 @@ spa.page.portfolio = (META)=>{
         See the Pen <a href='https://codepen.io/emilyannemoses/pen/QoyGZo/'>HTML5 AudioAPI Example using vanilla JavaScript</a> by Emily Anne Moses
         (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
     </iframe>
+</div>
 </div>
     ` 
 }

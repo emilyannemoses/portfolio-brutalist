@@ -77,9 +77,5 @@ fieldset {
 .formContainer {
     background-color: var(--form-bg-color);
     color: var(--form-text-color);
+    height: 100vh;
 }
-/* @media screen and (min-width: 480px) {
-    form {
-       max-width: 480px;
-    }
-} */

@@ -30,5 +30,10 @@
     color: var(--portfolio-text-color);
     font-size: var(--medium-font);
     font-family: var(--font-roboto);
+    margin-top: 50px;
+}
 
+.wholepage {
+    height: 100vh;
+    background-color: var(--portfolio-bg-color);
 }
