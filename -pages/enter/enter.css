@@ -6,6 +6,25 @@
     float: right;
 }
 
+.boring {
+    background-color: black;
+    display: table;
+    height: var(--universal-height);
+    width: 50%;
+    float: left;
+}
+
+.boringButton {
+    border: white;
+    color: white;
+    cursor: pointer;
+    display: table-cell;
+    font-size: var(--large-font);
+    margin: auto;
+    text-align: var(--universal-center-text);
+    vertical-align: middle;
+}
+
 .button {
     border: var(--enter-border);
     color: var(--enter-text-color);
