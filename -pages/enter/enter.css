@@ -7,7 +7,7 @@
 }
 
 .boring {
-    background-color: black;
+    background-color: #202020;
     display: table;
     height: var(--universal-height);
     width: 50%;
@@ -15,7 +15,7 @@
 }
 
 .boringButton {
-    border: white;
+    border: 10px solid white;
     color: white;
     cursor: pointer;
     display: table-cell;
