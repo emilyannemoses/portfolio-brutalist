@@ -42,5 +42,6 @@ body {
 
 .centered {
     font-size: var(--medium-font);
-    text-align: var(--universal-center-text);
+    /* text-align: var(--universal-center-text); */
+    text-align: center;  /* Had to do it this way because Microsoft Edge is horrible */
 }

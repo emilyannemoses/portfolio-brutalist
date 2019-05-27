@@ -35,3 +35,10 @@
     }
 
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 767px) {
+    #portfolio #navbar {
+        display:none;
+    }
+}

@@ -46,6 +46,7 @@
     .about-link {
         font-size: 30px;
         padding: 0px !important;
+        color: var(--about-text-color);
     }
     *, *:before, *:after {
         -moz-box-sizing: border-box;
