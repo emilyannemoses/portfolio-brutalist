@@ -20,7 +20,9 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
     </head>
     <body>
-        <div id="spaBody"></div>
+        <div id="spaBody">
+        </div>
+        <footer class="centered" id="customFooter"></footer>
     </body>
     <script src='./js/app.js' type="text/javascript"></script>
     <script type="text/javascript">
@@ -28,12 +30,25 @@
             window.onload = ()=>{
                 const spa =  new SPA()
                 spa._start({ landingPage: 'enter' })
+                setFooter()
             }
         } else {
             window.onload = ()=>{
                 const spa =  new SPA()
                 spa._start({ landingPage: 'mobile' })
+                setFooter()
             }
+        }
+        function setFooter() {
+            const year = new Date;
+            const footer = document.getElementById('customFooter');
+            footer.innerHTML = `
+                <div> &copy; ${year.getFullYear()} <a href="https://github.com/eamoses" target="_blank" id="link"> Emily Anne Moses </a> </div>
+            `
+            footer.style.fontSize = '8px';
+            footer.style.backgroundColor = '#202020';
+            footer.style.color = 'white';
+            link.style.color = 'white';
         }
     </script>
     <script type="text/javascript" src='components/navbar/navbar.js'></script>
