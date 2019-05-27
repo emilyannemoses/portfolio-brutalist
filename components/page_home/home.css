@@ -1,0 +1,31 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    #home #navbar {
+        background-color: var(--home-bg-color);
+        border: var(--home-border);
+        color: var(--home-text-color);
+        font-family: var(--font-dosis);
+        cursor: pointer;
+    }
+
+    #home {
+        background-color: var(--home-bg-color);
+        color: var(--home-text-color);
+        font-family: var(--font-dosis);
+        height: 100vh;
+    }
+
+    .portfolio {
+        background-color: var(--home-bg-color);
+        border: var(--home-border);
+        color: var(--home-text-color);
+        cursor: pointer;
+        font-size: var(--large-font);
+    }
+
+    img {
+        height: auto;
+        width: 510px;
+        margin: 20px 0px;
+    }
+}
