@@ -84,7 +84,7 @@
     .submit {
         padding: 19px 39px 18px 39px;
         cursor: pointer;
-        background-color: #609F9D;
+        background-color: #9F6062;
         font-size: 30px;
         font-family: var(--font-abril-fatface);
         text-align: center;
@@ -99,7 +99,7 @@
     .reset {
         padding: 19px 39px 18px 39px;
         cursor: pointer;
-        background-color: #9F6062;
+        background-color: #609F9D;
         font-size: 30px;
         text-align: center;
         font-style: normal;
