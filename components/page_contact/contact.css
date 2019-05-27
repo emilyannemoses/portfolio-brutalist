@@ -44,7 +44,7 @@
         padding: 19px 39px 18px 39px;
         color: #FFF;
         cursor: pointer;
-        background-color: #29D6C1;
+        background-color: #609F9D;
         font-size: 30px;
         font-family: var(--font-abril-fatface);
         text-align: center;
@@ -60,7 +60,7 @@
         padding: 19px 39px 18px 39px;
         color: #FFF;
         cursor: pointer;
-        background-color: #D6293E;
+        background-color: #9F6062;
         font-size: 30px;
         text-align: center;
         font-style: normal;
@@ -129,7 +129,7 @@
         padding: 19px 39px 18px 39px;
         color: #FFF;
         cursor: pointer;
-        background-color: #29D6C1;
+        background-color: #609F9D;
         font-size: 30px;
         font-family: var(--font-abril-fatface);
         text-align: center;
@@ -145,7 +145,7 @@
         padding: 19px 39px 18px 39px;
         color: #FFF;
         cursor: pointer;
-        background-color: #D6293E;
+        background-color: #9F6062;
         font-size: 30px;
         text-align: center;
         font-style: normal;
@@ -163,6 +163,6 @@
     .formContainer {
         background-color: var(--form-bg-color);
         color: var(--form-text-color);
-        height: 100vh;
+        height: 100%;
     }
 }

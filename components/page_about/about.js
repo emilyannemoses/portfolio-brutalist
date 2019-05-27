@@ -17,7 +17,7 @@ SPA.prototype.about = {
                 <span class="large">I</span> consider myself a tinkerer. I love diving into a project or technology and just "figuring it out" as I go. You'll find me reaching out to my web developer friends on <a href="https://twitter.com/emilyannemoses" class="about-link" target="_blank">Twitter</a> for tips and tricks. Connect with me and let's have coffee! I'm always up for some good chat ☕️. I'm also an artist 👩🏽‍🎨 and woodworker, and you can see some of my work on <a href="https://www.instagram.com/emilyannemoses" class="about-link" target="_blank">Instagram</a>.
             </div>
             <div class="some-margin">
-                <span class="large">T</span>his version of my online portfolio is created with the <a href="https://brutalistwebsites.com/" target="_blank" class="about-link">brutalist</a> style technique in mind. I'd love to know<span spaPage="contact" style="color:#E2AD1D;cursor:pointer;padding:5px!important;font-size:30px;"><u>what you think.</u></span>
+                <span class="large">T</span>his version of my online portfolio is created with the <a href="https://brutalistwebsites.com/" target="_blank" class="about-link">brutalist</a> style technique in mind. I'd love to know<span spaPage="contact" style="color:#AC9B53;cursor:pointer;padding:5px!important;font-size:30px;"><u>what you think.</u></span>
             </div>
             </div>
         </div>

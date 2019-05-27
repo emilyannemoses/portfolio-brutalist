@@ -22,14 +22,11 @@
     --portfolio-bg-color: #9D6279;
     --portfolio-text-color: #629D86;
     --portfolio-border: 10px solid var(--portfolio-text-color);
-    --contact-bg-color: #CA357F;
-    --contact-text-color: #35CA80;
-    --contact-border: 10px solid var(--contact-text-color);
-    --form-bg-color: #DA252E;
-    --form-text-color: #25DAD1;
+    --form-bg-color: #9F6062;
+    --form-text-color: #609F9D;
     --form-border: 10px solid var(--form-text-color);
-    --about-bg-color: #1D52E2;
-    --about-text-color: #E2AD1D;
+    --about-bg-color: #5364AC;
+    --about-text-color: #AC9B53;
     --about-border: 10px solid var(--about-text-color);
 }
 
