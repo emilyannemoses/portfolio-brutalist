@@ -18,9 +18,16 @@
         <div id="spaBody"></div>
     </body>
     <script>
-        window.onload = ()=>{
-            const spa =  new SPA()
-            spa._start({ landingPage: 'enter' })
+        if(window.innerWidth > 767) {
+            window.onload = ()=>{
+                const spa =  new SPA()
+                spa._start({ landingPage: 'enter' })
+            }
+        } else {
+            window.onload = ()=>{
+                const spa =  new SPA()
+                spa._start({ landingPage: 'mobile' })
+            }
         }
     </script>
     <script src='components/_navbar/navbar.js'></script>
@@ -34,4 +41,6 @@
     <script src='components/page_about/about.js'></script>
     <link rel="stylesheet" href="components/page_portfolio/portfolio.css">
     <script src='components/page_portfolio/portfolio.js'></script>
+    <link rel="stylesheet" href="components/page_mobile/mobile.css">
+    <script src='components/page_mobile/mobile.js'></script>
 </html>
