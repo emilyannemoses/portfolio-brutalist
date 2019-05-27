@@ -1,7 +1,7 @@
 SPA.prototype.about = {
     html: function(){
       return /*html*/`
-        <div id="about" class="centered">
+        <div id="about">
           <div>${this.spa._component('navbar')}</div>
           <div class="contain">
             <div class="some-margin">

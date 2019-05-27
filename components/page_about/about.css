@@ -5,6 +5,8 @@
         color: var(--about-text-color);
         font-family: var(--font-kalam);
         cursor: pointer;
+        font-size: var(--medium-font);
+        text-align: center;  /* Had to do it this way because Microsoft Edge is horrible */
     }
     .contain {
         margin: 0;
