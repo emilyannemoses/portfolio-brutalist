@@ -8,7 +8,7 @@ SPA.prototype.portfolio = {
             <div class="wholepage">
             <div class="linkContainer centered"> 
             <div>
-            EMILY'S <a href="https://github.com/eamoses" class="centered large-font-size no-padding" target="_blank">GITHUB</a>
+            EMILY'S <a href="https://github.com/eamoses" class="centered large-font-size no-padding" target="_blank"> GITHUB</a>
             </div>
             <div class="image">
             <a href="https://eamoses.github.io/widget-dashboard/" target="_blank">
@@ -39,7 +39,7 @@ SPA.prototype.portfolio = {
             digestible plastic</a>
             </div>
             </div>
-            <div class="codepen centered">EMILY'S<a href="https://codepen.io/emilyannemoses/" class="centered large-font-size no-padding" target="_blank">CODEPEN</a>
+            <div class="codepen centered">EMILY'S <a href="https://codepen.io/emilyannemoses/" class="centered large-font-size no-padding" target="_blank"> CODEPEN</a>
             <iframe height="450" style="width: 100%;margin-top: 25px;" scrolling="no" title="HTML5 AudioAPI Example using vanilla JavaScript" src="//codepen.io/emilyannemoses/embed/QoyGZo/?height=265&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
             See the Pen <a href='https://codepen.io/emilyannemoses/pen/QoyGZo/'>HTML5 AudioAPI Example using vanilla JavaScript</a> by Emily Anne Moses
             (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
