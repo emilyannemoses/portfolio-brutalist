@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    #about #navbar {
+        background-color: var(--about-bg-color);
+        border: var(--about-border);
+        color: var(--about-text-color);
+        font-family: var(--font-kalam);
+        cursor: pointer;
+    }
+    .contain {
+        margin: 0;
+        background-color: var(--about-bg-color);
+        color: var(--about-text-color);
+        font-family: var(--font-kalam);
+        height: 100%;
+    }
+    .large {
+        font-size: 30px;
+        padding: 0px !important;
+    }
+    
+    .some-margin {
+        font-size: 24px;
+        margin: 0px 200px;
+        padding: 20px;
+    }
+    
+    .about-link {
+        font-size: 30px;
+        padding: 0px !important;
+    }
+}

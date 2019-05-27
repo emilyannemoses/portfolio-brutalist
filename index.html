@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./js/spa.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./-pages/enter/enter.css">
-    <link rel="stylesheet" href="./-pages/home/home.css">
-    <link rel="stylesheet" href="./-pages/contact/contact.css">
-    <link rel="stylesheet" href="./-pages/about/about.css">
-    <link rel="stylesheet" href="./-pages/portfolio/portfolio.css">
-    <link rel="stylesheet" href="./-pages/form/form.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kalam">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
-    <title>emily anne moses &#183; software engineer</title>
-</head>
-<body>
-</body>
-<script>
-    const spa =  new Single_Page_Application
-    window.onload = ()=>{
-        spa.localizeCss()
-        spa.start({
-            landingPage: 'enter'
-        })
-    }
-    window.onhashchange = (event)=>{ spa.hashChange(event) }
-</script>
-<script src="./-pages/enter/enter.js"></script>
-<script src="./-pages/home/home.js"></script>
-<script src="./-pages/contact/contact.js"></script>
-<script src="./-pages/about/about.js"></script>
-<script src="./-pages/portfolio/portfolio.js"></script>
-<script src="./-pages/form/form.js"></script>
+    <head>
+        <title>emily anne moses &#183; software engineer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src='./js/SPA.js'></script>
+        <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kalam">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    </head>
+    <body>
+        <div id="spaBody"></div>
+    </body>
+    <script>
+        window.onload = ()=>{
+            const spa =  new SPA()
+            spa._start({ landingPage: 'enter' })
+        }
+    </script>
+    <script src='components/_navbar/navbar.js'></script>
+    <link rel="stylesheet" href="components/page_home/home.css">
+    <script src='components/page_home/home.js'></script>
+    <link rel="stylesheet" href="components/page_contact/contact.css">
+    <script src='components/page_contact/contact.js'></script>
+    <link rel="stylesheet" href="components/fullpage_enter/enter.css">
+    <script src='components/fullpage_enter/enter.js'></script>
+    <link rel="stylesheet" href="components/page_about/about.css">
+    <script src='components/page_about/about.js'></script>
+    <link rel="stylesheet" href="components/page_portfolio/portfolio.css">
+    <script src='components/page_portfolio/portfolio.js'></script>
 </html>
