@@ -11,6 +11,5 @@ SPA.prototype.navbar = {
             <span thisClick="openResume('../resume/emilyannemoses-2019.pdf')"><u>resume</u></span>
         </nav>
       `
-    }
-  
-  }
+    }  
+}
