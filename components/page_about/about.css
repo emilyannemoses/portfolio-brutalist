@@ -8,12 +8,16 @@
         font-size: var(--medium-font);
         text-align: center;  /* Had to do it this way because Microsoft Edge is horrible */
     }
+
+    #about {
+        height: 100vh;
+        background-color: var(--about-bg-color);
+    }
     .contain {
         margin: 0;
         background-color: var(--about-bg-color);
         color: var(--about-text-color);
         font-family: var(--font-kalam);
-        height: 100%;
     }
     .large {
         font-size: 30px;

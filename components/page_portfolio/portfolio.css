@@ -8,6 +8,11 @@
         cursor: pointer;
     }
 
+    #portfolio {
+        height: 100vh;
+        background-color: var(--portfolio-bg-color);
+    }
+
     .linkContainer {
         background-color: var(--portfolio-bg-color);
         border: var(--portfolio-border);
