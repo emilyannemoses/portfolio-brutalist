@@ -10,7 +10,7 @@
     }
 
     #about {
-        height: 100vh;
+        height: 100%;
         background-color: var(--about-bg-color);
     }
     .contain {

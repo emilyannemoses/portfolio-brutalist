@@ -9,7 +9,7 @@
     }
 
     #portfolio {
-        height: 100vh;
+        height: 100%;
         background-color: var(--portfolio-bg-color);
     }
 
