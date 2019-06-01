@@ -1,6 +1,6 @@
-SPA.prototype.mobile = {
-    html: function(){
-      return /*html*/`
+class Mobile extends SPA {
+    html() {
+        return /*html*/`
         <div id="containerContainer">
             <div id="codeContainer">
             <div class="wholepage">
@@ -75,6 +75,7 @@ SPA.prototype.mobile = {
             <button type="submit" class="submit">SEND</button>
             <button type="reset" class="reset">RESET</button>
           </form>
+          <div>${this._component('Footer')}</div>
           </div>
             </div>
         </div>

@@ -6,56 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="components/page_home/home.css">
-        <link rel="stylesheet" href="components/page_contact/contact.css">
-        <link rel="stylesheet" href="components/fullpage_enter/enter.css">
-        <link rel="stylesheet" href="components/page_about/about.css">
-        <link rel="stylesheet" href="components/page_portfolio/portfolio.css">
-        <link rel="stylesheet" href="components/page_mobile/mobile.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="components/page_home/home.css">
+        <link rel="stylesheet" type="text/css" href="components/page_contact/contact.css">
+        <link rel="stylesheet" type="text/css" href="components/page_enter/enter.css">
+        <link rel="stylesheet" type="text/css" href="components/page_about/about.css">
+        <link rel="stylesheet" type="text/css" href="components/page_portfolio/portfolio.css">
+        <link rel="stylesheet" type="text/css" href="components/page_mobile/mobile.css">
+        <link rel="stylesheet" type="text/css" href="components/footer/footer.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dosis">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kalam">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
     </head>
     <body>
         <div id="spaBody">
         </div>
-        <footer class="centered" id="customFooter"></footer>
     </body>
     <script src='./js/app.js' type="text/javascript"></script>
     <script type="text/javascript">
         if(window.innerWidth > 767) {
-            window.onload = ()=>{
-                const spa =  new SPA()
-                spa._start({ landingPage: 'enter' })
-                setFooter()
+            window.onload = () => {
+            const spa =  new SPA()
+                spa._start({
+                    landingPage: "Enter",
+                    components: {
+                        "Enter"    :    new Enter,
+                        "Home"    :    new Home,
+                        "Navbar"  :    new Navbar,
+                        "About"     :    new About,
+                        "Contact"   :    new Contact,
+                        "Portfolio" : new Portfolio,
+                        "Footer" : new Footer
+                    }
+                })
             }
         } else {
-            window.onload = ()=>{
-                const spa =  new SPA()
-                spa._start({ landingPage: 'mobile' })
-                setFooter()
+            window.onload = () => {
+            const spa =  new SPA()
+                spa._start({
+                    landingPage: "Mobile",
+                    components: {
+                        "Mobile" : new Mobile,
+                        "Footer" : new Footer
+                    }
+                })
             }
-        }
-        function setFooter() {
-            const year = new Date;
-            const footer = document.getElementById('customFooter');
-            footer.innerHTML = `
-                <div> &copy; ${year.getFullYear()} <a href="https://github.com/eamoses" target="_blank" id="link"> Emily Anne Moses </a> </div>
-            `
-            footer.style.fontSize = '8px';
-            footer.style.backgroundColor = '#202020';
-            footer.style.color = 'white';
-            link.style.color = 'white';
         }
     </script>
     <script type="text/javascript" src='components/navbar/navbar.js'></script>
     <script type="text/javascript" src='components/page_home/home.js'></script>
     <script type="text/javascript" src='components/page_contact/contact.js'></script>
-    <script type="text/javascript" src='components/fullpage_enter/enter.js'></script>
+    <script type="text/javascript" src='components/page_enter/enter.js'></script>
     <script type="text/javascript" src='components/page_about/about.js'></script>
     <script type="text/javascript" src='components/page_portfolio/portfolio.js'></script>
+    <script type="text/javascript" src='components/footer/footer.js'></script>
     <script type="text/javascript" src='components/page_mobile/mobile.js'></script>
 </html>
