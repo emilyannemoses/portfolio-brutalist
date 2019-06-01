@@ -17,9 +17,10 @@ class About extends SPA {
             <span class="large">I</span> consider myself a tinkerer. I love diving into a project or technology and just "figuring it out" as I go. You'll find me reaching out to my web developer friends on <a href="https://twitter.com/emilyannemoses" class="about-link" target="_blank">Twitter</a> for tips and tricks. Connect with me and let's have coffee! I'm always up for a good chat ☕️. I'm also an artist 👩🏽‍🎨, woodworker, and nature lover. View my work on <a href="https://www.instagram.com/emilyannemoses" class="about-link" target="_blank">Instagram</a>.
         </div>
         <div class="some-margin">
-            <span class="large">T</span>his version of my online portfolio is created with the <a href="https://brutalistwebsites.com/" target="_blank" class="about-link">brutalist</a> style technique in mind. I'd love to know<span spaPage="contact" style="color:#A6B847;cursor:pointer;padding:5px!important;font-size:30px;"><u>what you think.</u></span>
+            <span class="large">T</span>his version of my online portfolio is created with the <a href="https://brutalistwebsites.com/" target="_blank" class="about-link">brutalist</a> style technique in mind. I'd love to know<span spaPage="Contact" style="color:#A6B847;cursor:pointer;padding:5px!important;font-size:30px;"><u>what you think.</u></span>
         </div>
         </div>
+        <div>${this._component('Footer')}</div>
     </div>
   `
   }

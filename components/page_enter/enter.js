@@ -5,7 +5,7 @@ class Enter extends SPA {
         <a class='boringButton' href="https://eamoses.github.io/index/" target="_blank">WHY WOULD YOU GO HERE...</a>
     </div>
     <div class='enter'>
-        <div class='button' spaPage="home"><u>...WHEN YOU COULD GO HERE</u></div>
+        <div class='button' spaPage="Home"><u>...WHEN YOU COULD GO HERE</u></div>
     </div>
   `
   }

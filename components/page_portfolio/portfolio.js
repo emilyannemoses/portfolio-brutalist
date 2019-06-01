@@ -42,6 +42,7 @@ class Portfolio extends SPA {
           See the Pen <a href='https://codepen.io/emilyannemoses/pen/QoyGZo/'>HTML5 AudioAPI Example using vanilla JavaScript</a> by Emily Anne Moses
           (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
           </iframe>
+          <div>${this._component('Footer')}</div>
           </div>
           </div>
       </div>

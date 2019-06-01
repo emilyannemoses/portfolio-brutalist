@@ -75,6 +75,7 @@ class Mobile extends SPA {
             <button type="submit" class="submit">SEND</button>
             <button type="reset" class="reset">RESET</button>
           </form>
+          <div>${this._component('Footer')}</div>
           </div>
             </div>
         </div>

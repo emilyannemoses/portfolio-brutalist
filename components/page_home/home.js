@@ -6,8 +6,9 @@ class Home extends SPA {
         <div>${this._component('Navbar')}</div>
       </div>
         <img src='images/selfie.jpg' alt='selfie'>
-        <div class='portfolio centered' spaPage="portfolio"><u>portfolio of projects</u></div>
-    </div>
+        <div class='portfolio centered' spaPage="Portfolio"><u>portfolio of projects</u></div>
+        <div>${this._component('Footer')}</div>
+        </div>
   `
   }
 }
