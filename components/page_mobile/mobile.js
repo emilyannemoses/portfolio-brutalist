@@ -1,6 +1,6 @@
-SPA.prototype.mobile = {
-    html: function(){
-      return /*html*/`
+class Mobile extends SPA {
+    html() {
+        return /*html*/`
         <div id="containerContainer">
             <div id="codeContainer">
             <div class="wholepage">

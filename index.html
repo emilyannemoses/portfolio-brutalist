@@ -27,15 +27,30 @@
     <script src='./js/app.js' type="text/javascript"></script>
     <script type="text/javascript">
         if(window.innerWidth > 767) {
-            window.onload = ()=>{
-                const spa =  new SPA()
-                spa._start({ landingPage: 'enter' })
+            window.onload = () => {
+            const spa =  new SPA()
+                spa._start({
+                    landingPage: "Enter",
+                    components: {
+                        "Enter"    :    new Enter,
+                        "Home"    :    new Home,
+                        "Navbar"  :    new Navbar,
+                        "About"     :    new About,
+                        "Contact"   :    new Contact,
+                        "Portfolio" : new Portfolio
+                    }
+                })
                 setFooter()
             }
         } else {
-            window.onload = ()=>{
-                const spa =  new SPA()
-                spa._start({ landingPage: 'mobile' })
+            window.onload = () => {
+            const spa =  new SPA()
+                spa._start({
+                    landingPage: "Mobile",
+                    components: {
+                        "Mobile" : new Mobile
+                    }
+                })
                 setFooter()
             }
         }

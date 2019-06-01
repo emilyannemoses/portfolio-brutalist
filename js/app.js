@@ -6,28 +6,38 @@ class SPA {
     this._data = {}
   }
 
-  _start({landingPage}) {
+  _start({landingPage, components}) {
     this._landingPage = landingPage
     this._currentPage = landingPage
+
+    for (const key in components) {
+      this[key] = components[key]
+      this[key]._component = this._component.bind(this) // We need to add the _componet method and bind 'this' to it because we're accessting the spa scope to then call the function being nested
+      this[key]._update = this._update.bind(this)
+      this[key]._data = this._data
+    }
+
     window.addEventListener("hashchange", ()=>{
-      if (window.location.hash.split("#")[1] !== this._currentPage) {
-        this._go(window.location.hash.split("#")[1])
-      }
+      let hash = window.location.hash.split("#")[1] || this._landingPage
+      if (hash === this._landingPage) { history.replaceState(null, null, " ")
+      } else { window.location.hash = '#'+hash }
+      this._currentPage = hash
+      this._go(hash)
     })
-    this._go()
+
+    this._go(window.location.hash.split("#")[1])
   }
 
   _go(page) {
     this._currentPage = page || this._currentPage
     this._body.innerHTML = this._component(this._currentPage)
     this._render_components()
-    window.location.hash = this._currentPage
   }
 
   _component(comp) {
     this._render.unshift(comp)
-    this[comp].spa = this
-    return `<comp-${comp}>${this[comp].html.apply(this[comp])}</comp-${comp}>`
+    const content = this[comp].html.apply(this[comp])
+    return `<comp-${comp}>${content}</comp-${comp}>`
   }
 
   _update(data) {
@@ -41,7 +51,8 @@ class SPA {
     while (this._render.length > 0) {
       const comp = this._render.shift()
       const elm = document.getElementsByTagName("comp-"+comp)[0]
-      this._thisClick(comp, elm, 'thisClick')
+      this._spaEvent(comp, elm)
+
     }
     this._spaPage('spaPage')
   }
@@ -53,16 +64,15 @@ class SPA {
     })
   }
 
-  _thisClick(comp, elms, listener){
-    elms.querySelectorAll('['+listener+']').forEach((elm)=>{
-      const str = elm.getAttribute(listener).split(/\(|\)|'|"| |,/).filter(i=>i)
+  _spaEvent(comp, elms) {
+    elms.querySelectorAll('[spa]').forEach((elm)=>{
+      let [ htmlEvent, str ] = elm.getAttribute("spa").split("=")
+      str = str.split(/\(|\)|'|"| |,/).filter(i=>i)
       const func = str.shift()
-      elm.addEventListener('click', ()=>{
-        try { this[comp][func].apply(this[comp], this._args(str)) }
-        catch(err) {
-          if (err.message !== "Cannot read property 'apply' of undefined"){throw(err)}
-        }
+      elm.addEventListener(htmlEvent, ()=>{
+        this[comp][func].apply(this[comp], this._args(str))
       })
+      elm.removeAttribute("spa")
     })
   }
 
