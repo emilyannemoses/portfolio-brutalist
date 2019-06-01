@@ -5,7 +5,7 @@
         color: var(--about-text-color);
         font-family: var(--font-oldenburg);
         cursor: pointer;
-        font-size: var(--medium-font);
+        font-size: var(--large-font);
         text-align: center;  /* Had to do it this way because Microsoft Edge is horrible */
     }
 
@@ -20,14 +20,14 @@
         font-family: var(--font-oldenburg);
     }
     .large {
-        font-size: 30px;
+        font-size: 60px;
         padding: 0px !important;
     }
     
     .some-margin {
-        font-size: 24px;
+        font-size: 44px;
         margin: 0px 200px;
-        padding: 20px;
+        padding: 10px;
     }
     
     .about-link {
