@@ -29,7 +29,7 @@
         margin: 0;
         background-color: var(--about-bg-color);
         color: var(--about-text-color);
-        font-family: var(--font-kalam);
+        font-family: var(--font-oldenburg);
         height: 100%;
     }
     .large {
@@ -117,6 +117,5 @@
     .formContainer {
         background-color: var(--form-bg-color);
         color: var(--form-text-color);
-        height: 100vh;
     }
 }

@@ -10,7 +10,7 @@
     --font-avenir: Avenir;
     --font-dosis: 'Dosis';
     --font-roboto: 'Roboto Mono';
-    --font-kalam: 'Kalam';
+    --font-oldenburg: 'Oldenburg';
     --font-abril-fatface: 'Abril Fatface';
     --font-press-start: 'Press Start 2P';
     --enter-bg-color: #5BA46B;
@@ -25,8 +25,8 @@
     --form-bg-color: #609F9D;
     --form-text-color: #9F6062;
     --form-border: 10px solid var(--form-text-color);
-    --about-bg-color: #5947B8;
-    --about-text-color: #A6B847;
+    --about-bg-color: #867689;
+    --about-text-color:  #C0B8C2;
     --about-border: 10px solid var(--about-text-color);
 }
 

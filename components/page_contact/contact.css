@@ -78,7 +78,7 @@
     .formContainer {
         background-color: var(--form-bg-color);
         color: var(--form-text-color);
-        height: 100vh;
+        /* height: 100vh; */
     }
 }
 
@@ -163,6 +163,6 @@
     .formContainer {
         background-color: var(--form-bg-color);
         color: var(--form-text-color);
-        height: 100%;
+        /* height: 100%; */
     }
 }
