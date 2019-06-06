@@ -9,6 +9,10 @@ class Mobile extends SPA {
             EMILY'S <a href="https://github.com/eamoses" class="centered large-font-size no-padding" target="_blank"> GITHUB</a>
             </div>
             <div class="image">
+            <a href="https://emilyannemoses.com/blog" target="_blank">
+            blog</a>
+            </div>
+            <div class="image">
             <a href="https://eamoses.github.io/widget-dashboard/" target="_blank">
             widget dashboard</a>
             </div>
